@@ -1,0 +1,273 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+}
+.logo {
+  padding-left: 10px;
+}
+.fa-brands,
+.fab {
+  margin-left: 30px;
+}
+.first-container {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  background-image: url(/assets/img/drop.jpg);
+  background-size: conver;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.left-box {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  width: 50%;
+}
+
+.right-box {
+  width: 50%;
+}
+.left-box-text {
+  width: 600px;
+  /* height: 40px; */
+}
+.left-box-text h1 {
+  background-color: black;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 30px;
+  padding-left: 20px;
+  letter-spacing: 4px;
+  width: 470px;
+}
+.left-box-text h2 {
+  background-color: black;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 27px;
+  font-weight: 100;
+  padding-left: 20px;
+}
+.right-box {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.right-box .interested-container {
+  width: 350px;
+  height: 400px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.right-box .interested-container h1 {
+  text-align: center;
+}
+.right-box .interested-container p {
+  font-size: 16px;
+  text-align: start;
+}
+.myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myForm input {
+  width: 200px;
+  height: 40px;
+  margin: 5px;
+  border: 1px solid black;
+}
+.myForm label {
+  font-size: 12px;
+}
+::placeholder {
+  padding-left: 20px;
+}
+.submit-btn {
+  background-color: forestgreen;
+  color: white;
+  opacity: none;
+  margin: 15px 0 0 0;
+  cursor: pointer;
+  height: 45px;
+  font-size: 20px;
+}
+.submit {
+  width: 100%;
+}
+.l-text {
+  font-size: 12px;
+  margin: 10px 0 0 0;
+}
+.about {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.about h1 {
+  margin: 0;
+  padding: 50px;
+  background-color: whitesmoke;
+}
+.inside-about-boxs {
+  display: flex;
+  justify-content: center;
+}
+.about-img {
+  width: 200px;
+  height: 145px;
+  border-radius: 50%;
+}
+.box-about-style {
+  width: 500px;
+  height: 300px;
+}
+.box-about-style h1 {
+  font-size: 1.5rem;
+}
+.box-about-style p {
+  font-size: 0.9rem;
+}
+.eco-company-sec {
+  width: 100%;
+  height: 400px;
+  background-color: bisque;
+  text-align: center;
+}
+.eco-company-sec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eco-text {
+  max-width: 800px;
+}
+.person-box {
+  width: 100%;
+  height: 400px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.person-box img {
+  width: 150px;
+  height: 120px;
+  border-radius: 50%;
+}
+.person-style {
+  width: 400px;
+}
+hr {
+  height: 250px;
+  width: 2px;
+  background-color: black;
+  margin: 30px;
+}
+footer {
+  display: flex;
+  height: 50px;
+  align-items: c;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+/* ABOUT SECTION STARTS */
+
+@media only screen and (max-width: 640px) {
+  .first-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-color: whitesmoke;
+  }
+  .right-box {
+    width: 100%;
+  }
+  .left-box {
+    margin: 10px;
+  }
+  .left-box-text h1 {
+    width: 250px;
+    font-size: 1.6rem;
+    height: 80px;
+  }
+  .left-box-text h2 {
+    width: 300px;
+    height: 75px;
+  }
+
+  .inside-about-boxs {
+    flex-direction: column;
+    margin: 0;
+  }
+  .box-about-style {
+    display: flex;
+    width: 100%;
+    height: 150px;
+  }
+  .box-about-style h1 {
+    /* margin-left: 100px; */
+    font-size: 1.1rem;
+  }
+  .about {
+    width: 100%;
+    text-align: left;
+  }
+  .about h1 {
+    padding: 15px;
+    margin-left: 20px;
+    /* margin: 30px; */
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  .about p {
+    margin-left: 20px;
+  }
+  .box-about-style p {
+    /* margin-left: 100px; */
+    font-size: 0.9rem;
+  }
+  .about-img {
+    width: 115px;
+    height: 105px;
+  }
+  .person-box {
+    flex-direction: column;
+    height: 700px;
+  }
+  hr {
+    width: 300px;
+    height: 1px;
+    background-color: black;
+  }
+  .person-style {
+    width: auto;
+  }
+}
